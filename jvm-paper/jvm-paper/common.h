@@ -10,6 +10,7 @@
 #pragma warning(disable: 4715)
 
 #pragma comment(lib, "OpenGL32.lib")
+#pragma comment(lib, "libircmt.lib")
 
 //socket hook
 #include <winsock2.h>

@@ -8,8 +8,8 @@
 
 typedef struct CInstanceKlass {
 	char pad_0000[16];
-	class CSymbol* _name;
-	char pad_0018[200];
+	class CSymbol* _name;	
+	char pad_0018[192];
 	class CConstantPool* _constant_pool;
 	char pad_00E0[160];
     CArray<CMethod*>* _methods;
