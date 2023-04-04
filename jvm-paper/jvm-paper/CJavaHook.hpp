@@ -7,6 +7,7 @@
 
 typedef enum struct EHookType {
 	//do not use overwrite until i fix it - xwhitey (suka blyat ya ne mogu na unicode pisat')
+	//Ало сучёныш, готов за 2 шайбы снюса и 0.5 балтики зафиксить эту хуйню? Тут делов хуяк хуяк и готово, зуб даю
 	OVERWRITE = 0,
 	APPEND = 1,
 } CHookType;
